@@ -174,7 +174,7 @@ void  menu()
 	Transmition* transmition = new Transmition[size];
 	do
 	{
-		cout << " 1. Enter cars " << endl << " 2. View cars" << endl << " 3. Joke" << endl << " 4. Exit" << endl;
+		cout << " 1. Enter cars " << endl << " 2. View cars" << endl << " 3. No Joke" << endl << " 4. Exit" << endl;
 		cin >> k;
 		switch (k)
 		{
@@ -189,6 +189,7 @@ void  menu()
 			system("cls");
 			break;
 		case 2:
+
 			for (int i = 0; i < size; i++)
 			{
 				wheel[i].getNameAndEngine();
